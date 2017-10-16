@@ -7,5 +7,6 @@ def nyc_pigeon_organizer(data)
       pidgeon_list[:pidgeon] = {:color => [], :gender => [], :lives => []
     end
   end
-  
+
+  puts pidgeon_list
 end
