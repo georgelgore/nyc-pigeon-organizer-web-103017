@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   data.each do |category, hash|
     hash.each do |info, pidgeons|
       pidgeons.each do |pidgeon|
-        pidgeon_list[pidgeon] = {}
+        pidgeon_list[pidgeon] = {:color => [], :gender => [], :lives => []}
       # {:color => [], :gender => [], :lives => []}
       end
     end
