@@ -16,8 +16,8 @@ def nyc_pigeon_organizer(data)
     hash.each do |info, pidgeons|
       pidgeon_list.each do |name, info_hash|
 
-          info_hash[category] << info if pidgeons.include?(name)
-        
+          info_hash[category] << info.to_s if pidgeons.include?(name)
+
       end
     end
   end
